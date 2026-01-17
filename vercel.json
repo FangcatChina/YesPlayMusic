@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "http://origin_serv.091209.xyz:3050/:match*"
+    }
+  ]
+}
